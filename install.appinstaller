@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2021"
+    Version="5.0.0.0"
+    Uri="https://github.com/DeLuxe-1337/UpdateServer/raw/main/" >
+    
+    <MainPackage
+        Name="DMessageFaker"
+        Publisher="CN=DeLuxe"
+        Version="5.0.0.0"
+        ProcessorArchitecture="x86"
+        Uri="https://github.com/DeLuxe-1337/UpdateServer/raw/main/DMessageFaker.msix" />
+</AppInstaller>
