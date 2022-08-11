@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="5.0.0.0"
+    Uri="https://raw.githubusercontent.com/DeLuxe-1337/UpdateServer/main/install.appinstaller" >
+    
+    <MainPackage
+        Name="DMessageFaker"
+        Publisher="CN=DeLuxe"
+        Version="5.0.0.0"
+        ProcessorArchitecture="x86"
+        Uri="https://raw.githubusercontent.com/DeLuxe-1337/UpdateServer/main/DMessageFaker.msix" />
+    
+    <UpdateSettings>
+        <OnLaunch 
+            ShowPrompt="true" />
+        <AutomaticBackgroundTask />
+        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    </UpdateSettings>
+</AppInstaller>
